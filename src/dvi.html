@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+            max-width: 480px;
+            margin: 0 auto;
+        }
+
+        table {
+            width: 320px;
+            border-collapse: collapse;
+            border-spacing: 0;
+            margin: 0 auto;
+        }
+
+        table td {
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            overflow: hidden;
+            padding: 10px 5px;
+            word-break: normal;
+            text-align: center;
+        }
+
+        table th {
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            overflow: hidden;
+            padding: 10px 5px;
+            word-break: normal;
+        }
+
+        ol {
+            width: 480px;
+            margin: 0 auto;
+
+        }
+    </style>
+    <title>SmartCalc V2.0 Documentation</title>
+</head>
+
+<body>
+    <h1>SmartCalc v2.0-0 Documentation</h1>
+    <p><b>SmartCalc</b> - application for calculating mathematical expressions with additionional Credit Calculator
+        module.</p>
+
+    <h2>Restrictions</h2>
+    <ol>
+        <li>The input string for a mathematical expression is no longer than 255 characters.</li>
+        <li>The maximum value for the abscissa and ordinate axis is 1000000.</li>
+        <li>The minimum value for plotting is equal to the maximum value, taken with a
+            minus sign.</li>
+    </ol>
+
+    <h2>Installing</h2>
+    <p>To install the application run <b>make install</b> command</p>
+
+    <h2>Operators</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Operator name</th>
+                <th>Syntax</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Addition</td>
+                <td>a + b</td>
+            </tr>
+            <tr>
+                <td>Subtraction</td>
+                <td>a - b</td>
+            </tr>
+            <tr>
+                <td>Multiplication</td>
+                <td>a * b</td>
+            </tr>
+            <tr>
+                <td>Division</td>
+                <td>a / b</td>
+            </tr>
+            <tr>
+                <td>Power</td>
+                <td>a ^ b</td>
+            </tr>
+            <tr>
+                <td>Modulus</td>
+                <td>a % b</td>
+            </tr>
+            <tr>
+                <td>Unary plus</td>
+                <td>+a</td>
+            </tr>
+            <tr>
+                <td>Unary minus</td>
+                <td>-a</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Functions</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Function name</th>
+                <th>Syntax</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cosine</td>
+                <td>cos(x)</td>
+            </tr>
+            <tr>
+                <td>Sine</td>
+                <td>sin(x)</td>
+            </tr>
+            <tr>
+                <td>Tangent</td>
+                <td>tan(x)</td>
+            </tr>
+            <tr>
+                <td>Arc cosine</td>
+                <td>acos(x)</td>
+            </tr>
+            <tr>
+                <td>Arc sine</td>
+                <td>asin(x)</td>
+            </tr>
+            <tr>
+                <td>Arc tangent</td>
+                <td>atan(x)</td>
+            </tr>
+            <tr>
+                <td>Square root</td>
+                <td>sqrt(x)</td>
+            </tr>
+            <tr>
+                <td>Natural logarithm</td>
+                <td>ln(x)</td>
+            </tr>
+            <tr>
+                <td>Common logarithm</td>
+                <td>log(x)</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
